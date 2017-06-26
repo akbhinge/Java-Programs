@@ -1,0 +1,21 @@
+CODAZEN SOFTWARE ENGINEERING ASSIGNMENT
+
+Time complexity –
+
+O(n1*n2)-
+Here, n1 = size of course1 Student array
+n2= size of course2 Student array
+
+Space complexity –
+
+Space complexity of the algorithm would be O(1), as space required to compare course arrays
+would be dependent on array size and will not increase, it would be constant.
+
+
+
+HOURS WORKED ON THE ASSIGNMENT-
+
+- I worked around 5 hours on the assignment.
+
+Thank you.
+Akshay

@@ -1,0 +1,212 @@
+/* SAMPLE OUTPUT TEST CASES
+
+OUTPUT 1:
+
+Enter number of students for 1st course:
+2
+Provide Student details:
+Student: 1
+Enter first name of student (only alphabets):
+Nicole
+Enter last name of student (only alphabets):
+Anderson
+Enter age of the student:
+24
+
+Student: 2
+Enter first name of student (only alphabets):
+Akshay
+Enter last name of student (only alphabets):
+Bhinge
+Enter age of the student:
+20
+
+Student details for Course 1:
+First Name: Nicole
+Last Name: Anderson
+Age: 24
+
+First Name: Akshay
+Last Name: Bhinge
+Age: 20
+
+Enter number of students for 2nd course:
+2
+Provide student details:
+Student: 1
+Enter first name of student (only alphabets):
+Akshay
+Enter last name of student (only alphabets):
+Bhinge
+Enter age of the student:
+20
+
+Student: 2
+Enter first name of student (only alphabets):
+Akshay
+Enter last name of student (only alphabets):
+Bhinge
+Enter age of the student:
+20
+Student already enrolled in course!
+
+Student: 2
+Enter first name of student (only alphabets):
+Jacob
+Enter last name of student (only alphabets):
+Smith
+Enter age of the student:
+24
+
+Student details for Course 2:
+First Name: Akshay
+Last Name: Bhinge
+Age: 20
+
+First Name: Jacob
+Last Name: Smith
+Age: 24
+
+Students enrolled in both courses: 1
+
+*/
+
+/*
+
+OUTPUT 2:
+
+Enter number of students for 1st course:
+2
+Provide Student details:
+Student: 1
+Enter first name of student (only alphabets):
+Jake
+Enter last name of student (only alphabets:
+Collins
+Enter age of the student:
+24
+
+Student: 2
+Enter first name of student (only alphabets):
+Henry
+Enter last name of student (only alphabets:
+Michael
+Enter age of the student:
+25
+
+Student details for Course 1:
+First Name: Jake
+Last Name: Collins
+Age: 24
+
+First Name: Henry
+Last Name: Michael
+Age: 25
+
+Enter number of students for 2nd course:
+2
+Provide student details:
+Student: 1
+Enter first name of student (only alphabets):
+Emily
+Enter last name of student (only alphabets:
+Clark
+Enter age of the student:
+21
+
+Student: 2
+Enter first name of student (only alphabets):
+Sam
+Enter last name of student (only alphabets:
+Smith
+Enter age of the student:
+22
+
+Student details for Course 2:
+First Name: Emily
+Last Name: Clark
+Age: 21
+
+First Name: Sam
+Last Name: Smith
+Age: 22
+
+Students enrolled in both courses: 0
+
+*/
+
+/*
+
+OUTPUT 3:
+
+Enter number of students for 1st course:
+2
+Provide Student details:
+Student: 1
+Enter first name of student (only alphabets):
+Amy
+Enter last name of student (only alphabets:
+Raily
+Enter age of the student:
+21
+
+Student: 2
+Enter first name of student (only alphabets):
+Harry
+Enter last name of student (only alphabets:
+Smith
+Enter age of the student:
+24
+
+Student details for Course 1:
+First Name: Amy
+Last Name: Raily
+Age: 21
+
+First Name: Harry
+Last Name: Smith
+Age: 24
+
+Enter number of students for 2nd course:
+3
+Provide student details:
+Student: 1
+Enter first name of student (only alphabets):
+Harry
+Enter last name of student (only alphabets:
+Smith
+Enter age of the student:
+24
+
+Student: 2
+Enter first name of student (only alphabets):
+Luis
+Enter last name of student (only alphabets:
+Hamilton
+Enter age of the student:
+25
+
+Student: 3
+Enter first name of student (only alphabets):
+Nikki
+Enter last name of student (only alphabets:
+Jacobs
+Enter age of the student:
+18
+
+Student details for Course 2:
+First Name: Harry
+Last Name: Smith
+Age: 24
+
+First Name: Luis
+Last Name: Hamilton
+Age: 25
+
+First Name: Nikki
+Last Name: Jacobs
+Age: 18
+
+Students enrolled in both courses: 1
+
+*/
