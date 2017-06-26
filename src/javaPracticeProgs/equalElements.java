@@ -1,6 +1,8 @@
 package javaPracticeProgs;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class equalElements {
@@ -33,6 +35,26 @@ public class equalElements {
 
         return count;
     }
+    private int equalDiff(int[] nums, int k){
+        if(k <0 || nums.length == 0){
+            return 0;
+        }
+        Map<Integer, Integer> map1 = new HashMap<>();
+
+        for(int i=0; i < nums.length;i++){
+            map1.put(nums[i],i);
+        }
+
+        int count1 = 0;
+
+        for(int i =0;i< nums.length; i++){
+            if(map1.containsKey(nums[i]+k) && map1.get(nums[i]+k) !=i){
+                map1.remove(nums[i]+k);
+                count1++;
+            }
+        }
+        return count1;
+    }
 
     public static void main(String[] args) {
 
@@ -59,6 +81,14 @@ public class equalElements {
         System.out.println();
 
         System.out.println("Min moves to equal array elements if + and - allowed: " + eq1.getEqualCount2(arr));
+
+        System.out.println();
+
+        System.out.println("Enter k: ");
+
+        int k = in.nextInt();
+
+        System.out.println("K-diff moves required: "+ eq1.equalDiff(arr,k));
 
         in.close();
     }
