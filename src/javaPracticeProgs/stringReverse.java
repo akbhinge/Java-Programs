@@ -18,6 +18,27 @@ public class stringReverse {
         return s1.toString();
     }
 
+    private static String timeConversion(String s){
+        if(s == null){
+            return null;
+        }
+
+        String[] tempArray = s.split(":");
+        String hours = tempArray[0];
+        String minutes = tempArray[1];
+        String seconds = tempArray[2].substring(0,2);
+        String dayTime = tempArray[2].substring(2,4);
+        String res;
+
+        if(dayTime.equals("AM")){
+            res = hours.equals("12")?"00":hours +":"+minutes+":"+seconds;
+        }
+        else{
+            res = hours.equals("12")?hours: Integer.parseInt(hours)+12 +":"+minutes+":"+seconds;
+        }
+        return res;
+    }
+
 
     public static void main(String[] args){
 
@@ -32,5 +53,9 @@ public class stringReverse {
         System.out.println();
 
         System.out.println("Reversed string: "+ strReverse(input));
+
+        String result = timeConversion(input);
+        System.out.println("Time converted into 24 hour format: "+result);
+
     }
 }
